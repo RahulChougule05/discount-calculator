@@ -1,0 +1,74 @@
+* {
+  color: white;
+}
+body {
+  background-color: rgb(247, 237, 219);
+}
+.container {
+  width: 800px;
+  background-color: #0d5c63;
+  margin-left: 300px;
+  margin-top: 125px;
+  border-radius: 10px;
+}
+h2 {
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px black;
+  font-family: "Righteous", cursive;
+}
+p {
+  font-family: "Roboto Slab", serif;
+  font-size: x-large;
+  margin-left: 20px;
+  font-weight: bold;
+}
+form {
+  font-family: "Roboto Slab", serif;
+  margin-left: 20px;
+  font-size: x-large;
+  font-weight: bold;
+}
+input {
+  width: 300px;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  color: #0d5c63;
+  font-weight: bolder;
+  font-size: x-large;
+}
+#labelBill {
+  margin-right: 94px;
+}
+#calculate {
+  padding: 20px;
+  width: 200px;
+  color: #0d5c63;
+  font-weight: bolder;
+  border-radius: 10px;
+  margin-left: 246px;
+  font-size: x-large;
+  margin-top: 25px;
+}
+#calculate:hover {
+  background-color: burlywood;
+}
+/* #total{
+    text-align: center;
+} */
+.socialMedia{
+    margin-inline-start: 600px;
+    
+}
+#twitter {
+    margin-left: 30px;
+}
+#facebook {
+    margin-left: 30px;
+}
+#instagram {
+    margin-left: 30px;
+}
