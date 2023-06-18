@@ -17,18 +17,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
   </head>
+
   <body>
     <div class="container">
       <h2>Discount-Calculator</h2>
       <p>Enter the Bill amount and discount in percentage</p>
       <form>
         <label id="labelBill"> Bill Amount </label>
-        <input type="number" /> <br />
-        <label> Discount Percentage </label>
-        <input type="number" /> <br />
-        <button id="calculate">Calculate</button>
+        <input type="number" id="billAmount" /> <br />
+        <label id="discount"> Discount Percentage </label>
+        <input type="number" id="discountPercentage"/> <br />
+        <button id="calculate" type="button">Calculate</button>
       </form>
-      <p id="total">Total Discount Amount ==</p>
+      <p id="total"> Total Discount Amount == </p>
       <div class="socialMedia">
         <a href="https://in.linkedin.com/" target="_blank" id="linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
         <a href="https://www.instagram.com/" target="_blank" id="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -37,12 +38,7 @@
       </div>
     </div>
 
-    <!-- <div class="socialMedia">
-      <a href="https://in.linkedin.com/" target="_blank" id="linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-      <a href="https://www.instagram.com/" target="_blank" id="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-      <a href="https://www.facebook.com/" target="_blank" id="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-      <a href="https://twitter.com/" target="_blank" id="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-    </div> -->
+    <script src="script.js"></script>
+
   </body>
 </html>
-
